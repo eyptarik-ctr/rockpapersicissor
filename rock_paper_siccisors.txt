@@ -1,0 +1,191 @@
+# import
+from random import randint
+
+# user import
+user_chooice = input("TAŞ KAĞIT YA DA  MAKAS' SEÇMEK İÇİN BAŞ HARFLERİNİ BÜYÜK HARFLE YAZ  ")
+computer_chooice = randint(1,3)
+
+def Resault():
+    if user_chooice == "K" and computer_chooice == 1:
+       print("hamleniz")
+       print('''    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)''')
+       print("Bilgisayarın hamlesi")
+       print('''    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)''')
+       print("SONUÇ")
+       print("Berabere")
+
+    elif user_chooice == "K" and computer_chooice == 2:
+        print("hamleniz")
+        print('''    _______
+        ---'   ____)____
+                  ______)
+                  _______)
+                 _______)
+        ---.__________)''')
+        print("Bilgisayarın hamlesi")
+        print('''    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)''')
+        print("SONUÇ")
+        print("Kaybettiniz")
+
+    elif  user_chooice == "K" and computer_chooice == 3:
+
+        print("hamleniz")
+        print('''    _______
+        ---'   ____)____
+                  ______)
+                  _______)
+                 _______)
+        ---.__________)''')
+        print("Bilgisayarın hamlesi")
+        print('''    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+''')
+        print("SONUÇ")
+        print("Kazandınız")
+    elif user_chooice == "M" and computer_chooice == 1:
+
+        print("hamleniz")
+        print('''    _______
+        ---'   ____)____
+                  ______)
+               __________)
+              (____)
+        ---.__(___)''')
+        print("Bilgisayarın hamlesi")
+        print('''    _______
+        ---'   ____)____
+                  ______)
+                  _______)
+                 _______)
+        ---.__________)''')
+
+        print("SONUÇ")
+        print("Kazandınız")
+    elif user_chooice == "M" and computer_chooice == 2:
+
+        print("hamleniz")
+        print('''    _______
+         ---'   ____)____
+                   ______)
+                __________)
+               (____)
+         ---.__(___)''')
+        print("Bilgisayarın hamlesi")
+        print('''    _______
+        ---'   ____)____
+                  ______)
+               __________)
+              (____)
+        ---.__(___)''')
+
+        print("SONUÇ")
+        print("Berabere")
+    elif user_chooice == "M" and computer_chooice == 3:
+
+        print("hamleniz")
+        print('''    _______
+           ---'   ____)____
+                     ______)
+                  __________)
+                 (____)
+           ---.__(___)''')
+        print("Bilgisayarın hamlesi")
+        print("hamleniz")
+        print('''    _______
+        ---'   ____)
+              (_____)
+              (_____)
+              (____)
+        ---.__(___)
+        ''')
+        print("SONUÇ")
+        print("Kaybettiniz")
+    elif user_chooice == "T" and computer_chooice == 1:
+        print("hamleniz")
+        print('''    _______
+                ---'   ____)
+                      (_____)
+                      (_____)
+                      (____)
+                ---.__(___)
+                ''')
+
+        print("Bilgisayarın hamlesi")
+        print('''    _______
+               ---'   ____)____
+                         ______)
+                         _______)
+                        _______)
+               ---.__________)''')
+        print("SONUÇ")
+        print("Kaybettiniz")
+    elif user_chooice == "T" and computer_chooice == 2:
+        print("hamleniz")
+        print('''    _______
+                       ---'   ____)
+                             (_____)
+                             (_____)
+                             (____)
+                       ---.__(___)
+                       ''')
+
+        print("Bilgisayarın hamlesi")
+        print('''    _______
+              ---'   ____)____
+                        ______)
+                     __________)
+                    (____)
+              ---.__(___)''')
+
+        print("SONUÇ")
+        print("Kazandınız")
+    elif user_chooice == "T" and computer_chooice == 3:
+        print("hamleniz")
+        print('''    _______
+                   ---'   ____)
+                         (_____)
+                         (_____)
+                         (____)
+                   ---.__(___)
+                   ''')
+
+        print("Bilgisayarın hamlesi")
+        print('''    _______
+             ---'   ____)____
+                       ______)
+                    __________)
+                   (____)
+             ---.__(___)''')
+        print("SONUÇ")
+        print("Kaybettiniz")
+    else:
+        print("TAŞ, KAĞİT, MAKAS İÇİN BAŞ HARFLERİNİ BÜYÜK HARFLE YAZ")
+Resault()
+
+
+
+
+
+
+
+
+
